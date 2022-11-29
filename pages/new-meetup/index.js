@@ -9,7 +9,7 @@ function NewMeetupPage() {
       method: "POST",
       body: JSON.stringify(enteredMeetupData),
       headers: {
-        "Content-Type": "application/json",
+        "content-type": "application/json",
       },
     });
     const data = response.json();
